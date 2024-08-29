@@ -1,0 +1,26 @@
+#footer_itens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px;
+}
+.address{
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+.iframe{
+    overflow: hidden;
+}
+iframe{
+    transition: 3s ease;
+}
+iframe:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width: 418px){
+    #footer_itens{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+}
