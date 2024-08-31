@@ -2,6 +2,7 @@
 @import url('home.css');
 @import url('menu.css');
 @import url('about.css');
+@import url('address.css');
 @import url('footer.css');
 
 :root {
@@ -37,12 +38,20 @@
     font-family: var(--font-padrao);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--color-primary-1);
 }
 
 section {
     padding: 28px 8%;
+}
+
+button {
+    color: var(--color-neutral-2);
 }
 
 .section_title {

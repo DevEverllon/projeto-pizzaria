@@ -1,9 +1,10 @@
 #about {
-    min-height: calc(100vh - 96px);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 48px;
+
+    min-height: calc(100vh - 92px);
 }
 
 .about_image {

@@ -1,0 +1,9 @@
+#address {
+    text-align: center;
+    min-height: calc(100vh - 92px);
+    /* margin-top: 92px; */
+    padding: 8% 0px;
+}
+#address h2{
+    margin-bottom: 20px;
+}

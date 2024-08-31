@@ -1,6 +1,7 @@
 header {
     width: 100%;
-    padding: 28px 8%;
+    height: 92px;
+    padding: 28px 8% 0px 8%;
     position: sticky;
     top: 0;
     background-color: var(--color-primary-1);
@@ -40,10 +41,16 @@ header {
 /* MOBILE MENU */
 .mobile_btn {
     display: none;
+    width: 0;
+    height: 0;
 }
 
 #mobile_menu {
     display: none;
+}
+
+.fechar_modal{
+    display: block;
 }
 
 @media screen and (max-width: 860px) {
@@ -67,6 +74,14 @@ header {
         border: none;
         font-size: 1.5rem;
         cursor: pointer;
+        color: var(--color-neutral-2);
+    }
+
+    #mobile_menu {
+        background-color: var(--color-primary-1);
+        position: absolute;
+        right: 0;
+        width: 100%;
     }
 
     #mobile_menu.active1 {
