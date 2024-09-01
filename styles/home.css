@@ -1,7 +1,11 @@
 #home{
     display: flex;
-    min-height: calc(100vh - 92px);
+    min-height: calc(100vh + 92px);
     position: relative;
+    background: url('../asserts/header-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .cta{
     width: 35%;
@@ -11,8 +15,11 @@
     margin-top: 1%;
 }
 .cta .title{
-    font-size: 4rem;
-    color: var(--color-neutral-2);
+    font-size: 2.8rem;
+    color: var(--color-neutral-0);
+}
+.cta .description{
+    color: var(--color-neutral-0);
 }
 .cta .title span{
     color: var(--color-primary-6);
@@ -38,13 +45,19 @@
     box-shadow: var(--box-shadow-1);
     border-radius: 12px;
 }
-
+.pedidos a{
+    text-decoration: none;
+    color: var(--color-neutral-2);
+}
 .banner{
     display: flex;
     align-items: start;
     justify-content: end;
     width: 70%;
     z-index: 2;
+
+    /* MUDAR */
+    display: none;
 }
 .banner img{
     height: 100%;
@@ -54,12 +67,15 @@
     background-color: var(--color-primary-2);
     width: 50%;
     height: 100%;
-
+    
     position: absolute;
     border-radius: 40% 30% 0% 20%;
     top: 0;
     right: 0;
     z-index: 1;
+    
+    /* MUDAR */
+    display: none;
 }
 
 

@@ -4,7 +4,8 @@ header {
     padding: 28px 8% 0px 8%;
     position: sticky;
     top: 0;
-    background-color: var(--color-primary-1);
+    background-color: #ffffff30;
+    backdrop-filter: blur(5px);
     z-index: 3;
 }
 
@@ -41,11 +42,13 @@ header {
 /* MOBILE MENU */
 .mobile_btn {
     display: none;
-    width: 0;
-    height: 0;
 }
 
 #mobile_menu {
+    display: none;
+}
+
+.btn-mob{
     display: none;
 }
 
@@ -62,6 +65,10 @@ header {
         position: absolute;
         top: 28px;
         right: 8%;
+        display: flex;
+    }
+    .btn-mob i{
+        color: var(--color-primary-5);
     }
 
     .mobile_btn {

@@ -102,7 +102,7 @@ ScrollReveal().reveal('.about_content', {
     delay: 900
 });
 
-ScrollReveal().reveal('.dish', {
+ScrollReveal().reveal('.dishes', {
     origin: 'left',
     duration: 2100,
     distance: '30%',
