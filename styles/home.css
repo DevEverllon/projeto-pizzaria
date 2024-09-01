@@ -83,6 +83,8 @@
     #home{
         min-height: 100%;
         padding-top: 0px;
+        background-attachment: scroll;
+        margin-bottom: 12px;
     }
     .banner,
     .banner img,

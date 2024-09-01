@@ -4,7 +4,7 @@
     justify-content: space-between;
     padding: 22px;
 
-    background-color: var(--color-primary-6);
+    background-color: var(--color-primary-1);
 }
 
 @media screen and (max-width: 418px) {

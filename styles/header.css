@@ -4,7 +4,7 @@ header {
     padding: 28px 8% 0px 8%;
     position: sticky;
     top: 0;
-    background-color: #ffffff30;
+    background-color: #ffffff09;
     backdrop-filter: blur(5px);
     z-index: 3;
 }
@@ -30,7 +30,7 @@ header {
 
 .nav_item a {
     text-decoration: none;
-    color: var(--color-neutral-2);
+    color: var(--color-neutral-0);
     font-weight: 600;
 }
 

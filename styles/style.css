@@ -15,6 +15,7 @@
     --color-primary-6: #e9a209;
     --color-primary-7: #464646;
     --color-primary-8: #434343;
+    --color-primary-9: #161616;
     
     --color-btn-hover: #ffca45e1;
     --color-font-color: #6c6c6c;
@@ -43,7 +44,7 @@ html{
 }
 
 body {
-    background-color: var(--color-primary-1);
+    background-color: var(--color-primary-9);
 }
 
 section {
