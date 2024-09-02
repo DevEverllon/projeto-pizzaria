@@ -53,6 +53,9 @@ header {
 }
 
 @media screen and (max-width: 860px) {
+    header{
+        background-color: var(--color-primary-9);
+    }
     .nav_list,
     #navbar .btn-default {
         display: none;
@@ -80,7 +83,7 @@ header {
     }
 
     #mobile_menu {
-        background-color: var(--color-primary-1);
+        background-color: var(--color-primary-9);
         position: absolute;
         right: 0;
         width: 100%;
